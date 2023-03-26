@@ -1,18 +1,22 @@
 .fontenome {
     font-family: sans-serif;
+    text-align: center;
 }
-.descrição {
+.descricao {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 500px;
+    bottom: 700px;
+    
 }
 body {
     background-color: #E2DE84;
-    text-align: center;
 }
 .resido{
     background-color: antiquewhite;
     color: black;
-    border-radius: 200px;
-    margin: 0;
+    border: solid black 1px;
+    margin-right: 1428px;
 }
 .javascript{
     font-size: 20px;
@@ -28,4 +32,11 @@ body {
 }
 .After-Effects{
     font-size: 12px;
+}
+.minha-foto {
+    padding: 5px;
+    background-color: red;
+}
+ol li:nth-child(odd) {
+    background-color: green;
 }

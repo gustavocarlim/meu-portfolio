@@ -1,42 +1,124 @@
-.fontenome {
-    font-family: sans-serif;
-    text-align: center;
-}
-.descricao {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    left: 500px;
-    bottom: 700px;
-    
-}
+/* estilo geral */
 body {
-    background-color: #E2DE84;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.resido{
-    background-color: antiquewhite;
-    color: black;
-    border: solid black 1px;
-    margin-right: 1428px;
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
-.javascript{
-    font-size: 20px;
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
-.excel{
-    font-size: 18px;
+
+/* estilo do cabeçalho */
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
 }
-.photoshop{
-    font-size: 16px;
+
+.fontenome {
+  font-size: 48px;
+  margin: 0;
 }
-.premiere{
-    font-size: 14px;
+
+/* estilo da seção de apresentação */
+section {
+  padding: 50px 20px;
+  text-align: center;
 }
-.After-Effects{
-    font-size: 12px;
-}
+
 .minha-foto {
-    padding: 5px;
-    background-color: red;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
 }
-ol li:nth-child(odd) {
-    background-color: green;
+
+.descricao {
+  font-size: 24px;
+  margin: 0;
+}
+
+.resido {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* estilo da lista de habilidades */
+.lista {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.javascript::before {
+  content: "\f3b9";
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.excel::before {
+  content: "\f1c3";
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.photoshop::before {
+  content: "\f53d";
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.Premiere::before {
+  content: "\f859";
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.After-Effects::before {
+  content: "\f53e";
+  font-family: "Font Awesome 5 Free";
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+/* estilo do rodapé */
+footer {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #d61f1f;
 }

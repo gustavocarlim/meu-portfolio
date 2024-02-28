@@ -13,9 +13,6 @@ const SobreMim = () => {
               <span className="title__section-title">FullStack</span>
             </div>
             <div className="about__section">
-              <div className="mobile__descript">
-                <p>Sou graduada em Matemática e venho estudando e atuando na área de tecnologia há mais de um ano. Atualmente trabalho remotamente na @Icon Code.</p>
-              </div>
               <div className="desktop__descript">
                 <p>Sou um desenvolvedor júnior FullStack com mais de um ano de experiência estudando e</p>
                 <p>prestando serviço   na área de tecnologia. Completei o programa de formação na Trybe e </p>

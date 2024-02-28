@@ -1,0 +1,20 @@
+:root {
+    --cor-de-fundo: #404348;
+    --cor-de-fundo-light:#5f6266;
+    --amarelo: #FFB81D;
+    --bege: #C89C76;
+    --cinza: #EFECEC;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --preto: black;
+}
+
+body {
+    background-color: black;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}

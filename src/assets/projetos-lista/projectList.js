@@ -16,5 +16,11 @@ export const projects = [
         description: 'To-do List onde a pessoa usuária pode inserir, editar, deletar e classificar seus itens.',
         stacks: ['React', 'JavaScript', 'Context'],
         githubLink: 'https://github.com/gustavocarlim/DockerToDoList'
+    },
+        {
+        title: 'Recipes App - React',
+        description: 'Aplicativo para encontrar e salvar receitas de bebidas e alimentos, com a opção de favoritar para acesso rápido.',
+        stacks: ['React', 'Typescript', 'Context', 'Desenvolvido em time'],
+        githubLink: 'https://github.com/gustavocarlim/DockerToDoList'
     }
 ];
